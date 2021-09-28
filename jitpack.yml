@@ -1,0 +1,2 @@
+install:
+mvn install:install-file -Dfile=sdk-headtracking.jar -Djavadoc=sdk-headtracking-javadoc.jar -DgroupId=com.vuzix -DartifactId=sdk-headtracking -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
